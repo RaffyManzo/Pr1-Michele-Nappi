@@ -17,6 +17,8 @@ int main(void)
         mod = modifiedNum % 10;
         printf("Before:%d\n", armstrong);
         armstrong += pow(mod, index);
+        
+        // Sono semplici controlli sull'input, inspiegabilmente la pow(5, 2) = 124 per vs code
         printf("After:%d\n", armstrong);
         printf("Potenza sommata intera: %d\n", (int)pow(mod, index));
         printf("Potenza sommata double: %f\n", pow(mod, index));
